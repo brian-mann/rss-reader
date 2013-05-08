@@ -1,0 +1,5 @@
+These are subscriptions! <br />
+
+<% for subscription in @items: %>
+	<%= "name: #{subscription.name}" %> <br />
+<% end %>

@@ -1,0 +1,3 @@
+id: <%= @id %> <br />
+name: <%= @name %> <br />
+description: <%= @description %> <br />

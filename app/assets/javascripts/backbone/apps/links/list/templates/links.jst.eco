@@ -1,0 +1,11 @@
+<div id="list-region">
+	Links!! not subscriptions (even though its the same data) <br />
+
+	<% for link in @items: %>
+		<span data-id="<%= link.id %>">
+			<%= "id: #{link.id} name: #{link.name}" %>
+		</span>
+		<br />
+	<% end %>
+</div>
+<div id="article-region"></div>
